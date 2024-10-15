@@ -1,0 +1,168 @@
+[
+    {
+      "model": "base.book",
+      "pk": 1,
+      "fields": {
+        "category": "Science Fiction",
+        "author": "Isaac Asimov",
+        "name": "Foundation",
+        "year_published": 1951,
+        "loan_type": 1,
+        "added_date": "2024-10-29T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.book",
+      "pk": 2,
+      "fields": {
+        "category": "Classic",
+        "author": "Leo Tolstoy",
+        "name": "War and Peace",
+        "year_published": 1869,
+        "loan_type": 2,
+        "added_date": "2024-10-29T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.book",
+      "pk": 3,
+      "fields": {
+        "category": "Mystery",
+        "author": "Agatha Christie",
+        "name": "Murder on the Orient Express",
+        "year_published": 1934,
+        "loan_type": 3,
+        "added_date": "2024-10-29T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.book",
+      "pk": 4,
+      "fields": {
+        "category": "Fantasy",
+        "author": "J.R.R. Tolkien",
+        "name": "The Hobbit",
+        "year_published": 1937,
+        "loan_type": 1,
+        "added_date": "2024-10-29T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.book",
+      "pk": 5,
+      "fields": {
+        "category": "Non-Fiction",
+        "author": "Stephen Hawking",
+        "name": "A Brief History of Time",
+        "year_published": 1988,
+        "loan_type": 2,
+        "added_date": "2024-10-29T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.customer",
+      "pk": 1,
+      "fields": {
+        "name": "Alice",
+        "city": "New York",
+        "age": 30,
+        "email": "alice@example.com",
+        "customer_type": 2
+      }
+    },
+    {
+      "model": "base.customer",
+      "pk": 2,
+      "fields": {
+        "name": "Bob",
+        "city": "Los Angeles",
+        "age": 25,
+        "email": "bob@example.com",
+        "customer_type": 1
+      }
+    },
+    {
+      "model": "base.customer",
+      "pk": 3,
+      "fields": {
+        "name": "Charlie",
+        "city": "Chicago",
+        "age": 35,
+        "email": "charlie@example.com",
+        "customer_type": 2
+      }
+    },
+    {
+      "model": "base.customer",
+      "pk": 4,
+      "fields": {
+        "name": "Diana",
+        "city": "Houston",
+        "age": 28,
+        "email": "diana@example.com",
+        "customer_type": 1
+      }
+    },
+    {
+      "model": "base.customer",
+      "pk": 5,
+      "fields": {
+        "name": "Eve",
+        "city": "Philadelphia",
+        "age": 22,
+        "email": "eve@example.com",
+        "customer_type": 2
+      }
+    },
+    {
+      "model": "base.loan",
+      "pk": 1,
+      "fields": {
+        "cust_id": 1,
+        "book_id": 1,
+        "loan_date": "2023-01-01T00:00:00Z",
+        "return_date": "2023-01-11T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.loan",
+      "pk": 2,
+      "fields": {
+        "cust_id": 2,
+        "book_id": 2,
+        "loan_date": "2023-01-02T00:00:00Z",
+        "return_date": "2023-01-07T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.loan",
+      "pk": 3,
+      "fields": {
+        "cust_id": 3,
+        "book_id": 3,
+        "loan_date": "2023-01-03T00:00:00Z",
+        "return_date": "2023-01-05T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.loan",
+      "pk": 4,
+      "fields": {
+        "cust_id": 4,
+        "book_id": 4,
+        "loan_date": "2023-01-04T00:00:00Z",
+        "return_date": "2023-01-14T00:00:00Z"
+      }
+    },
+    {
+      "model": "base.loan",
+      "pk": 5,
+      "fields": {
+        "cust_id": 5,
+        "book_id": 5,
+        "loan_date": "2023-01-05T00:00:00Z",
+        "return_date": "2023-01-10T00:00:00Z"
+      }
+    }
+  ]
+  
